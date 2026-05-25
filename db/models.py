@@ -8,7 +8,7 @@ class Genre(models.Model):
         return self.name
 
 
-class Actor (models.Model):
+class Actor(models.Model):
     first_name = models.CharField(max_length=255)
     last_name = models.CharField(max_length=255)
 
